@@ -69,3 +69,19 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+@keyframes pulse-cursor {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-pulse-cursor {
+  animation: pulse-cursor 1s infinite;
+}
